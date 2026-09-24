@@ -1,6 +1,6 @@
-CREATE DATABASE chamados_ti
+CREATE DATABASE chamados_ti;
 
-USE chamados_ti
+USE chamados_ti;
 
 CREATE TABLE usuario (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -10,7 +10,7 @@ CREATE TABLE usuario (
     departamento VARCHAR(100),
     cargo VARCHAR(100),
     status VARCHAR(20)
-)
+);
 
 CREATE TABLE tecnico (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -18,13 +18,13 @@ CREATE TABLE tecnico (
     email VARCHAR(100) NOT NULL,
     especialidade VARCHAR(100),
     status VARCHAR(20)
-)
+);
 
 CREATE TABLE categoria (
     id INT AUTO_INCREMENT PRIMARY KEY,
     nome VARCHAR(100) NOT NULL,
     descricao VARCHAR(255)
-)
+);
 
 CREATE TABLE chamado (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -41,7 +41,7 @@ CREATE TABLE chamado (
     FOREIGN KEY (id_usuario) REFERENCES usuario(id),
     FOREIGN KEY (id_categoria) REFERENCES categoria(id),
     FOREIGN KEY (id_tecnico) REFERENCES tecnico(id)
-)
+);
 
 CREATE TABLE historico_comentarios (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -53,4 +53,4 @@ CREATE TABLE historico_comentarios (
 
     FOREIGN KEY (id_chamado) REFERENCES chamado(id),
     FOREIGN KEY (id_usuario) REFERENCES usuario(id)
-)
+);

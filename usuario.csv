@@ -1,0 +1,4 @@
+id,nome,email,telefone,departamento,cargo,status
+1,Lucas Almeida,lucas@empresa.com,11999990001,Financeiro,Analista,Ativo
+2,Mariana Santos,mariana@empresa.com,11999990002,RH,Assistente,Ativo
+3,Gabriel Ferreira,gabriel@empresa.com,11999990003,Vendas,Gerente,Ativo

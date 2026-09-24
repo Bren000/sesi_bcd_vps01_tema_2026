@@ -1,0 +1,4 @@
+id,id_chamado,id_usuario,data_hora,descricao,tipo
+1,1,1,2026-09-01 09:00:00,Técnico iniciou a análise do computador.,Atualização
+2,1,1,2026-09-01 10:00:00,Fonte de energia foi substituída.,Solução
+3,2,3,2026-09-02 10:00:00,O erro continua acontecendo ao abrir o sistema.,Comentário

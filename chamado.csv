@@ -1,0 +1,4 @@
+id,titulo,descricao,data_abertura,data_fechamento,status,prioridade,id_usuario,id_categoria,id_tecnico
+1,Computador não liga,O computador do setor financeiro não liga.,2026-09-01 08:30:00,2026-09-01 10:00:00,Fechado,Alta,1,1,1
+2,Sistema não abre,O sistema de vendas apresenta erro ao iniciar.,2026-09-02 09:15:00,,Em andamento,Media,3,2,3
+3,Internet lenta,A internet do setor de RH está muito lenta.,2026-09-03 13:20:00,,Aberto,Baixa,2,3,2
